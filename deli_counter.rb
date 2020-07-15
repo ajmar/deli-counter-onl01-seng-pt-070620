@@ -6,6 +6,6 @@ def line(deli)
     deli.each.with_index(1) do |name, i|
     array << ("#{i}. #{name}")
     end
-    array
+    puts array
   end
 end
