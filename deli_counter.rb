@@ -11,4 +11,6 @@ def line(deli)
 end
 
 def take_a_number(deli)
+  if deli.length == 0
+    deli.push("Marv")
 end
