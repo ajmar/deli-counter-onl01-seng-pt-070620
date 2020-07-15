@@ -6,6 +6,6 @@ def line(deli)
     deli.each.with_index(1) do |name, i|
     array << ("#{i}. #{name}")
     end
-    puts array
+    puts "The line is currently: #{array.join}"
   end
 end
