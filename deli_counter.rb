@@ -10,8 +10,9 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, num)
-  if deli.length == 0
-    deli.push("Ada")
+def take_a_number(deli, new)
+  deli.push(new)
+  puts "Welcome, #{new}. You are number #{deli.length} in line."
+
   end
 end
