@@ -4,8 +4,7 @@ def line(deli)
   elsif deli.length > 0
     array = []
     deli.each.with_index(1) do |name, i|
-    array << "#{i}. #{name}"
-      puts "The line is currently: #{array}"
+    array << ("The line is currently:" + "#{i}. #{name}")
     end
   end
 end
