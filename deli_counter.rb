@@ -12,6 +12,6 @@ end
 
 def take_a_number(deli, num)
   if deli.length == 0
-    deli.push("Marv")
+    deli.push("Ada")
   end
 end
