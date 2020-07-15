@@ -14,3 +14,6 @@ def take_a_number(deli, new)
   deli.push(new)
   puts "Welcome, #{new}. You are number #{deli.length} in line."
 end
+
+def now_serving(deli)
+end
