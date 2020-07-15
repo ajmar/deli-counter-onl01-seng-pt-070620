@@ -10,7 +10,7 @@ def line(deli)
   end
 end
 
-def take_a_number(deli)
+def take_a_number(deli, 0)
   if deli.length == 0
     deli.push("Marv")
   end
